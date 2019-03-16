@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" >
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="wrapper-lg">
+                <div class="header-list">
+                    <div class="logo">
+                        <a href="#"><img alt="logo" src="img/logo.png"></a>
+                    </div>
+                    <div id="burger-menu">
+                        <span></span>
+                    </div>
+                    <div id="menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                    <a href="#">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="cart" viewBox="0 0 38 32">
+                        <title>cart</title>
+                        <path fill="#fff" d="M14.768 29.083c0-0.010 0-0.023 0-0.035 0-1.63-1.322-2.952-2.952-2.952s-2.952 1.322-2.952 2.952c0 1.627 1.317 2.947 2.943 2.952h0c0.011 0 0.025 0 0.038 0 1.612 0 2.919-1.305 2.922-2.917v-0zM35.44 29.083c0-0.010 0-0.023 0-0.035 0-1.63-1.322-2.952-2.952-2.952s-2.952 1.322-2.952 2.952c0 1.63 1.322 2.952 2.952 2.952 0.003 0 0.005 0 0.008 0h-0c0.008 0 0.017 0 0.026 0 1.611 0 2.918-1.306 2.918-2.917v-0zM38.4 4.365c-0.013-0.804-0.666-1.452-1.472-1.454h-27.728c-0.224-1.091-0.24-2.909-1.808-2.909h-5.92c-0.803 0-1.454 0.651-1.454 1.454s0.651 1.454 1.454 1.454h4.72l4.080 18.698c-0.572 0.895-1.051 1.927-1.385 3.023l-0.023 0.089c0.013 0.804 0.666 1.452 1.472 1.454h23.632c0.014 0 0.031 0.001 0.048 0.001 0.803 0 1.454-0.651 1.454-1.454s-0.651-1.454-1.454-1.454c-0.017 0-0.034 0-0.051 0.001l0.002-0h-21.232c0.287-0.41 0.486-0.903 0.558-1.436l0.002-0.017c-0.059-0.593-0.166-1.133-0.32-1.653l0.016 0.063 24.096-2.771c0.735-0.088 1.301-0.703 1.312-1.452v-11.633z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="wrapper">
+                <div class="banner-list">
+                    <h1>Our clothing , your comfort</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        <br>magna aliqua.
+                    </p>
+                    <a  class="down" href="#myDiv"><img src='img/down.png'></a>
+                </div>
+        </section>
+        <section class="catalog" id='myDiv'>
+            <div class="catalog-list">
+                <div class="catalog-form">
+                    <div class="wrapper">
+                        <form class="catalog-input">
+                            <div class="box-block">
+                                <label>
+                                    <input class="checkbox" id="box1" type="checkbox" name="checkbox-test" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Men</span>
+                                </label>
+                            </div>
+                            <div class="box-block">
+                                <label>
+                                    <input class="checkbox" id="box2" type="checkbox" name="checkbox-test">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Women</span>
+                                </label>
+                            </div>
+                            <div class="box-block">
+                                <label>
+                                    <input class="checkbox" id="box3" type="checkbox" name="checkbox-test">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">children</span>
+                                </label>
+                            </div>
+                            <div class="button">
+                                <button class="submit" type="submit">see all products</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="slide-list">
+                    <div class="wrapper"> 
+                        <div id='iddiv1'>
+                            <span class="item-hr">Men</span>
+                            <span class="pagingInfo"></span>
+                            <div class="slideshow">
+                                <div class="item-list">
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size : 40</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>t-shirt</span>
+                                            <span class="item-footer__price">5.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size  : 38</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/pants.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>pants forclaz</span>
+                                            <span class="item-footer__price">30.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>10 litri</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/backpack.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>t-shirt</span>
+                                            <span class="item-footer__price">5.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>t-shirt</span>
+                                            <span class="item-footer__price">5.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>t-shirt</span>
+                                            <span class="item-footer__price">5.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>t-shirt</span>
+                                            <span class="item-footer__price">5.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>t-shirt</span>
+                                            <span class="item-footer__price">5.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>t-shirt</span>
+                                            <span class="item-footer__price">5.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id='iddiv2'>
+                            <span class="item-hr item-hr-women">women</span>
+                            <span class="pagingInfo"></span>
+                            <div class="slideshow">
+                                <div class="item-list">
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size : 40</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/giacket.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>giacket</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size  : 38</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/shoes.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>trekking shoes</span>
+                                            <span class="item-footer__price">80.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>10 litri</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt-women.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>t-shirt</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id='iddiv3'>
+                            <span class="item-hr">children</span>
+                            <span class="pagingInfo"></span>
+                            <div class="slideshow">
+                                <div class="item-list">
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size : 40</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>t-shirt</span>
+                                            <span class="item-footer__price">5.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size  : 38</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>pants forclaz</span>
+                                            <span class="item-footer__price">30.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>10 litri</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-list">
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="item-header">
+                                            <span>size</span>
+                                        </div>
+                                        <div class="item-img">
+                                            <img src='img/t-shirt.png' alt="t-shirt">
+                                        </div>
+                                        <div class="item-footer">
+                                            <span class='item-footer__name'>backpack</span>
+                                            <span class="item-footer__price">60.00 &euro;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class='wrapper-lg'>
+                <fieldset class="about-fieldset">
+                    <legend class="about-legend">About us</legend>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>
+                        exercitation</p>
+                </fieldset>
+            </div>
+        </section>
+        <section class="twitter">
+            <div class="wrapper-lg">
+                <div class='twitter-list'>
+                    <i class="fab fa-twitter"></i>
+                    <p>&#8220; E-commerce psd theme available &#8221;</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class='wrapper-lg'>
+                <div class="footer-list">
+                    <div class="footer-left">
+                        <h3>Trekking</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="footer-right">
+                        <div class="footer-menu">
+                            <a class="footer-menu-item" href="#">credits</a>
+                            <a class="footer-menu-item" href="#">privacy</a>
+                            <a class="footer-menu-item" href="#">about</a>
+                            <a class="footer-menu-item" href="#">company</a>
+                        </div>
+                        <span>Design by gianluca cosetta</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+    </body>
+</html>
